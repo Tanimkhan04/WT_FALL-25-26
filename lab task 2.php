@@ -89,6 +89,15 @@ confirm password:
  
 <div id="error"> </div>
 <div id="output"> </div>
+<!-- Activity Selection Section -->
+  <div class="section">
+    <h2>Activity Selection</h2>
+    <div class="activity-input-group">
+      <input type="text" id="activityName" placeholder="Enter activity name">
+      <button onclick="addActivity()">Add Activity</button>
+    </div>
+    <div id="activitiesList"></div>
+  </div>
  
 <script>
  
